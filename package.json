@@ -1,0 +1,27 @@
+{
+  "name": "beautylab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/seryozhko/beautylab.git"
+  },
+  "author": "seryozhko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seryozhko/beautylab/issues"
+  },
+  "homepage": "https://github.com/seryozhko/beautylab#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "browser-sync": "^2.23.6",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
