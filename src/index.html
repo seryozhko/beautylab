@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/css/custom.css">
   </head>
-  <body class="d-flex align-items-center justify-content-center h-100 text-center">
-    <div>
-      <img src="/assets/logo.jpg" class="mb-4" alt="BeautyLab" width="200px">
-      <h1 class="mb-4">Москва, улица Дубки, 6</h1>
-      <div id="instafeed"></div>
+  <body>
+    <div class="h-100 text-center">
+      <img  class="m-4" alt="BeautyLab" src="data:image/png;base64,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">
+      <h2 class="mb-4">Москва, улица Дубки, 6</h2>
+      <hr class="w-75 mb-4">
+      <div id="instafeed" class="mx-auto w-100 text-center"></div>
     </div>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instafeed"></script>
     <script type="text/javascript">
       var feed = new Instafeed({
         accessToken: '6940234539.d4848b2.a0305de706ce49a99daf8374fb06d283',
-        limit: 5,
+        limit: 20,
         imageResolution: 'low-resolution',
-        imageTemplate: '<a href="{{link}}" class="m-2"><img src="{{image}}" /></a>'
+        imageTemplate: '<a href="{{link}}"><img src="{{image}}" class="m-2 rounded"/></a>',
+        carouselFrameTemplate: '<a href="{{link}}"><img src="{{previewImage}}" class="m-2 rounded" width="{{previewWidth}}" height="{{previewHeight}}"></a>'
       });
       feed.run();
   </script>

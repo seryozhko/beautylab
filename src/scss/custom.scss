@@ -1,9 +1,16 @@
 html { height: 100% }
-$body-bg: #f8f9fb;
-// $font-family-base: 'Lora', serif;
 $font-family-base: 'Cormorant Garamond', serif;
 
-// @import url('https://fonts.googleapis.com/css?family=Lora');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
 
-@import "node_modules/bootstrap/scss/bootstrap";
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/utilities";
